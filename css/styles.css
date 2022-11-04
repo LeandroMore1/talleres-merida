@@ -53,6 +53,22 @@ h1{
 .carruselMarcas {
     height: 95px;
     background: rgba(217, 217, 217, 0.56);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+
+.logo{
+    height:360px;
+}
+
+@media screen and (max-width: 990px) {
+
+    .carruselMarcas img{
+        height: 25px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -60,4 +76,14 @@ h1{
     .barraNav {
         padding-right: 50px;
     }
+
+    .logo{
+        height: 50px;
+    }
+    .carruselMarcas img{
+        height: 20px;
+
+    }
+
 }
+
