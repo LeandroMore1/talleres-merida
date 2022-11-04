@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+body p{
+    color: white;
+}
+
+header {
+    background-image: url("../img/FONDOPRINCIPAL.png");
+    height: 749px;
+}
+
+nav a {
+    padding: 0px 12px 0px 12px;
+    color: white;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+nav {
+    padding-top: 60px;
+}
+
+.barraNav {
+    background: rgba(217, 217, 217, 0.22);
+    padding-right: 120px;
+    height: 30px;
+}
+
+.innovandoTexto{
+font-weight: 400;
+font-size: 29px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.045em;
+}
+
+h1{
+    color: #FF8F2B;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.carruselMarcas {
+    height: 95px;
+    background: rgba(217, 217, 217, 0.56);
+}
+
+@media screen and (max-width: 600px) {
+
+    .barraNav {
+        padding-right: 50px;
+    }
+}
