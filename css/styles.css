@@ -13,7 +13,7 @@ body p{
 
 header {
     background-image: url("../img/FONDOPRINCIPAL.png");
-    height: 749px;
+    height: 849px;
 }
 
 nav a {
@@ -28,6 +28,14 @@ nav {
     padding-top: 60px;
 }
 
+.textoHeader{
+    width: 405px;
+    text-align: left;
+    font-size: 19px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
 .barraNav {
     background: rgba(217, 217, 217, 0.22);
     padding-right: 120px;
@@ -36,10 +44,12 @@ nav {
 
 .innovandoTexto{
 font-weight: 400;
-font-size: 29px;
+font-size: 27px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.045em;
+width: 440px;
+margin-top: 20px;
 }
 
 h1{
@@ -48,6 +58,7 @@ h1{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
+    width: 500px;
 }
 
 .carruselMarcas {
@@ -56,8 +67,18 @@ h1{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    margin-top: 15px;
 }
 
+.contenedorLogoYTitulo{
+    margin-top: 40px;
+}
+
+.columna1Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 .logo{
@@ -66,9 +87,46 @@ h1{
 
 @media screen and (max-width: 990px) {
 
-    .carruselMarcas img{
-        height: 25px;
+
+    .contenedorLogoYTitulo{
+        margin-top: 10px;
     }
+
+    
+    .carruselMarcas img{
+        height: 30px;
+    }
+
+    h1{
+        font-size: 22px;
+        width: 300px;
+        line-height: 30px;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    .textoHeader{
+        font-size: 12px;
+        width: 280px
+    }
+
+    .logo{
+        height: 250px;
+    }
+
+    .innovandoTexto{
+        font-size: 17px;
+            width: 300px;
+            line-height: 30px;
+        }
+
+        nav {
+            padding-top: 40px;
+        }
+
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -77,13 +135,59 @@ h1{
         padding-right: 50px;
     }
 
+    .innovandoTexto{
+        font-size: 20px;
+        width: 400px;
+
+        }
+
     .logo{
-        height: 50px;
+        margin-top: -15px;
+        height: 250px;
     }
     .carruselMarcas img{
         height: 20px;
+    }
+
+    .columna1Header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .carruselMarcas {
+        height: 45px;
+    }
+
+    h1{
+        margin-top: 20px;
+        font-size: 17px;
+        width:200px;
+        line-height: 25px;
+    }
+
+    .textoHeader{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .carruselMarcas img{
+        height: 15px;
+    }
+
+    .carruselMarcas {
+        height: 55px;
 
     }
 
+
+    .columna1Header{
+        display:flex;
+        flex-direction: column-reverse;
+
+    }
 }
 
