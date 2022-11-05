@@ -3,17 +3,19 @@
     padding: 0px;
 }
 
+
+
 body {
     font-family: "Roboto";
 }
 
-body p{
+body p {
     color: white;
 }
 
 header {
     background-image: url("../img/FONDOPRINCIPAL.png");
-    height: 849px;
+    height: 762px;
 }
 
 nav a {
@@ -24,11 +26,20 @@ nav a {
     text-decoration: none;
 }
 
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: rgba(255, 251, 251, 0.22);
+    text-decoration: none;
+}
+
 nav {
     padding-top: 60px;
 }
 
-.textoHeader{
+.textoHeader {
     width: 405px;
     text-align: left;
     font-size: 19px;
@@ -42,17 +53,17 @@ nav {
     height: 30px;
 }
 
-.innovandoTexto{
-font-weight: 400;
-font-size: 27px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.045em;
-width: 440px;
-margin-top: 20px;
+.innovandoTexto {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    width: 440px;
+    margin-top: 20px;
 }
 
-h1{
+h1 {
     color: #FF8F2B;
     font-weight: 450;
     font-size: 36px;
@@ -65,68 +76,205 @@ h1{
     height: 95px;
     background: rgba(217, 217, 217, 0.56);
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 15px;
 }
 
-.contenedorLogoYTitulo{
+.Autos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.carruselAutos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    background-color: #8392A3;
+}
+
+.linea {
+    color: #FFFFFF;
+    width: 80%;
+    
+}
+
+.contenedorLogoYTitulo {
     margin-top: 40px;
 }
 
-.columna1Header{
+.columna1Header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.logo{
-    height:360px;
+.logo {
+    height: 360px;
 }
+
+#nosotros {
+    height: 782px;
+    background-image: url("../img/vectorDecoracion.png");
+    background-repeat: no-repeat;
+    background-size: 371px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 42px;
+    letter-spacing: 0.055em;
+}
+
+.columna1Nosotros h2 {
+    margin-left: 30px;
+    margin-top: 85px
+}
+
+.listaMotoresQueTrabajamos {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.columna1Nosotros p {
+
+    color: #E0AE76;
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 0.125em;
+}
+
+.columna2Nosotros {
+    text-align: end;
+
+}
+
+
+.columna2Nosotros h2 {
+    margin-left: 30px;
+    margin-top: 85px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+/* NOTE el margin bottom de la seccion nosotros esta puesto aca abajo */
+
+.columna2Nosotros img {
+    height: 300px;
+    margin-right: 60px;
+    margin-bottom: 85px;
+}
+
+.columna2Nosotros p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.135em;
+    color: #0B2A4A;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+
+#servicios{
+    height: 500px
+}
+
 
 @media screen and (max-width: 990px) {
 
 
-    .contenedorLogoYTitulo{
+    .contenedorLogoYTitulo {
         margin-top: 10px;
     }
 
-    
-    .carruselMarcas img{
-        height: 30px;
+
+    .carruselMarcas img {
+        height: 27px;
     }
 
-    h1{
+    h1 {
         font-size: 22px;
         width: 300px;
         line-height: 30px;
     }
 
-    nav a{
-        font-size: 12px;
-    }
 
-    .textoHeader{
+
+    .textoHeader {
         font-size: 12px;
         width: 280px
     }
 
-    .logo{
+    .logo {
         height: 250px;
     }
 
-    .innovandoTexto{
+    .innovandoTexto {
         font-size: 17px;
-            width: 300px;
-            line-height: 30px;
-        }
+        width: 300px;
+        line-height: 30px;
+    }
 
-        nav {
-            padding-top: 40px;
-        }
+    .barraNav{
+        padding-right: 70px;
+    }
 
-    
+    nav {
+        padding-top: 40px;
+    }
+
+    header {
+
+        height: 535px;
+    }
+
+    .columna2Nosotros p{
+        font-size: 15px;
+        margin-right: 40px
+    }
+
+    .columna1Nosotros p{
+        font-size: 32px;
+
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .columna1Nosotros h2{
+        margin-top: 40px;
+    }
+
+    .columna2Nosotros h2{
+        margin-bottom: 10px;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+    #nosotros{
+        height: 540px;
+        background-position: cover;
+        background-size: 250px;
+    }
+
+    .columna2Nosotros img{
+        height: 200px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+    }
+
+
+    .Autos img{
+        height:62px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -135,21 +283,21 @@ h1{
         padding-right: 50px;
     }
 
-    .innovandoTexto{
+    .innovandoTexto {
         font-size: 20px;
         width: 400px;
+    }
 
-        }
-
-    .logo{
+    .logo {
         margin-top: -15px;
         height: 250px;
     }
-    .carruselMarcas img{
+
+    .carruselMarcas img {
         height: 20px;
     }
 
-    .columna1Header{
+    .columna1Header {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -159,22 +307,38 @@ h1{
         height: 45px;
     }
 
-    h1{
+    h1 {
         margin-top: 20px;
         font-size: 17px;
-        width:200px;
+        width: 200px;
         line-height: 25px;
     }
 
-    .textoHeader{
+    .textoHeader {
         width: 350px;
     }
 
+    header {
+        height: 725px;
+    }
+
+    .filaNosotros{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carruselAutos{
+        display: none;
+    }
+
+    .barraNav{
+        padding-right: 20px;
+    }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 575px) {
 
-    .carruselMarcas img{
+    .carruselMarcas img {
         height: 15px;
     }
 
@@ -184,10 +348,60 @@ h1{
     }
 
 
-    .columna1Header{
-        display:flex;
+    .columna1Header {
+        display: flex;
         flex-direction: column-reverse;
 
     }
-}
 
+    header {
+        height: 735px;
+    }
+
+    #nosotros{
+        background: rgba(11, 42, 74, 0.25);
+        height:220px;
+        background-size: 130px;
+        background-image: url("../img/vectorDecoracion.png");
+        background-repeat: no-repeat;
+    }   
+
+    .listaMotoresQueTrabajamos p{
+        font-size: 20px;
+        line-height: 17px;
+    }
+
+    .columna1Nosotros h2{
+        margin-top: 20px;
+    }
+
+    .columna2Nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .columna2Nosotros h2{
+        align-self: start;
+        font-size: 21px;
+        text-align: left;
+        line-height: 25px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        margin: 60px 0px 20px 22px
+    }
+
+    .columna2Nosotros p{
+        font-size: 20px;
+        margin: 0px 0px 19px 0px
+    }
+
+    .columna2Nosotros img{
+        margin: 0px 0px 0px 0px;
+    height: 220px;
+    }
+}
