@@ -459,7 +459,9 @@ h2 {
     }
 
     #servicios h2{
-        padding-top: 20px;
+        padding-top: 0px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .imgLista{
