@@ -467,7 +467,8 @@ h2 {
     }
 
     .lista{
-        font-size: 10px;
-        margin-left: 12px;
+        font-size: 9px;
+        margin-left: -19px;
+        width: 150px;
     }
 }
