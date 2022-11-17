@@ -601,10 +601,25 @@ h2 {
         
     }
 
+
+    .filaCotizacion{
+        margin-bottom: 40px;
+    }
+
+    #cotizacion h2{
+        margin-bottom: 25px;
+    }
+
     .seccionColumna2Cotizacion h2{
         font-size: 20px;
-
+        margin-top: -5px;
         line-height: 30px;
+
+    }
+
+    
+    .seccionColumna2Cotizacion h3{
+  
     }
 
 }
