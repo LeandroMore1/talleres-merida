@@ -16,6 +16,9 @@ body p {
 header {
     background-image: url("../img/FONDOPRINCIPAL.png");
     height: 762px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav a {
@@ -215,7 +218,75 @@ h2 {
     margin-left: -40px;
 }
 
+#cotizacion{
+    background-image: url("../img/FONDO2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+#diagnosticoTexto{
+    font-weight: 550;
+}
+
+.seccionColumna1Cotizacion{
+    color: white;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+#cotizacion h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#cotizacion p{
+    font-size: 16px;
+}
+
+.seccionColumna1Cotizacion p{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+.seccionColumna1Cotizacion h2{
+    margin-bottom: 40px;
+}
+
+
+.filaCotizacion{
+    margin-bottom: 20px;
+}
+
+
+.seccionColumna2Cotizacion h2{
+    color: #FF8F2B;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.seccionColumna2Cotizacion h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.camiones{
+    margin-top: -20px;
+}
+
+
+
+.Columna2Cotizacion{
+    margin-top: 75px;
+}
+
+/*SECTION - MEDIA QUERIE 990 */
 
 
 @media screen and (max-width: 990px) {
@@ -322,8 +393,37 @@ h2 {
     height: 140px;
 }
 
+.seccionColumna2Cotizacion h2{
+    font-size:25px
+}
+
+.camiones{
+    height: 160px;
+}
+
+.iconoCotizacion{
+    height: 30px;
+}
+
+.precioCalGar{
+    height: 40px;
+}
+
+#cotizacion p{
+    font-size: 12px;
+}
+
+#cotizacion h3{
+    font-size: 17px;
+}
+
 
 }
+
+
+
+
+/*SECTION - MEDIA QUERIE 600 */
 
 @media screen and (max-width: 600px) {
 
@@ -382,7 +482,11 @@ h2 {
     .barraNav{
         padding-right: 20px;
     }
+
+
 }
+
+/*SECTION - MEDIA QUERIE 575 */
 
 @media screen and (max-width: 575px) {
 
@@ -467,10 +571,40 @@ h2 {
     .imgLista{
         height: 120px
     }
+    
+    nav a{
+        font-size: 12.5px;
+    }
 
     .lista{
         font-size: 9px;
         margin-left: -19px;
         width: 150px;
     }
+
+
+    .Columna2Cotizacion{
+        margin-top: 0px;
+    }
+
+    .seccionColumna1Cotizacion p{
+        text-align: center;
+    }
+
+    #cotizacion{
+        text-align: center;
+    }
+
+    .seccionColumna1Cotizacion{
+    
+        margin-top: 55px;
+        
+    }
+
+    .seccionColumna2Cotizacion h2{
+        font-size: 20px;
+
+        line-height: 30px;
+    }
+
 }
