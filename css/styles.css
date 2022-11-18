@@ -84,14 +84,14 @@ h1 {
     margin-top: 15px;
 }
 
-.Autos{
+.Autos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 15px;
 }
 
-.carruselAutos{
+.carruselAutos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@ h1 {
 .linea {
     color: #FFFFFF;
     width: 80%;
-    
+
 }
 
 .contenedorLogoYTitulo {
@@ -184,7 +184,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-#servicios{
+#servicios {
     height: 900px;
 }
 
@@ -194,21 +194,21 @@ h2 {
     margin-bottom: 40px;
 }
 
-#servicios p{
+#servicios p {
     color: #0B2A4A
 }
 
 
-.lista li{
+.lista li {
     line-height: 5px;
 }
 
-.lista p{
+.lista p {
     line-height: 15px;
     margin-bottom: 5px;
 }
 
-.lista{
+.lista {
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.06em;
@@ -218,57 +218,58 @@ h2 {
     margin-left: -40px;
 }
 
-#cotizacion{
+#cotizacion {
     background-image: url("../img/FONDO2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-#diagnosticoTexto{
+#diagnosticoTexto {
     font-weight: 550;
 }
 
-.seccionColumna1Cotizacion{
+.seccionColumna1Cotizacion {
     color: white;
     margin-top: 75px;
     margin-bottom: 25px;
 }
 
-#cotizacion h3{
+#cotizacion h3 {
     color: white;
     font-size: 20px;
     font-weight: 500;
 }
 
-#cotizacion p{
+#cotizacion p {
     font-size: 16px;
 }
 
-.seccionColumna1Cotizacion p{
+.seccionColumna1Cotizacion p {
     margin-bottom: 30px;
     text-align: justify;
 }
 
 
-.seccionColumna1Cotizacion h2{
+.seccionColumna1Cotizacion h2 {
     margin-bottom: 40px;
 }
 
 
-.filaCotizacion{
+.filaCotizacion {
     margin-bottom: 20px;
 }
 
 
-.seccionColumna2Cotizacion h2{
+.seccionColumna2Cotizacion h2 {
     color: #FF8F2B;
     text-align: center;
     font-size: 35px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.seccionColumna2Cotizacion h3{
+
+.seccionColumna2Cotizacion h3 {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -276,14 +277,60 @@ h2 {
     letter-spacing: 0.05em;
 }
 
-.camiones{
+.camiones {
     margin-top: -20px;
 }
 
+.testimonios {
+    background-color: #63778B
+}
 
+.comentarios {
+    padding-bottom: 40px;
+}
 
-.Columna2Cotizacion{
+.comentarios h2 {
+    padding-top: 40px;
+    color: #0B2A4A;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#dondeEstamos h2 {
+    color: white;
+    padding-top: 45px;
+    margin-bottom: 40px;
+    margin-left: 57px;
+}
+
+#dondeEstamos {
+    background-color: #546A80;
+}
+
+.columnaMapa {
+    text-align: center;
+}
+
+.Columna2Cotizacion {
     margin-top: 75px;
+}
+
+.filaContacto {
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.mapa {
+    margin-bottom: 30px;
+}
+
+.horariosAtencionMaxRes {
+    display: none;
 }
 
 /*SECTION - MEDIA QUERIE 990 */
@@ -291,6 +338,10 @@ h2 {
 
 @media screen and (max-width: 990px) {
 
+
+    .filaContacto h5{
+        font-size: 15px;
+    }
 
     .contenedorLogoYTitulo {
         margin-top: 10px;
@@ -324,7 +375,7 @@ h2 {
         line-height: 30px;
     }
 
-    .barraNav{
+    .barraNav {
         padding-right: 70px;
     }
 
@@ -337,86 +388,93 @@ h2 {
         height: 535px;
     }
 
-    .columna2Nosotros p{
+    .columna2Nosotros p {
         font-size: 15px;
         margin-right: 40px
     }
 
-    .columna1Nosotros p{
+    .columna1Nosotros p {
         font-size: 32px;
 
     }
 
-    h2{
+    h2 {
         font-size: 20px;
     }
 
-    .columna1Nosotros h2{
+    .columna1Nosotros h2 {
         margin-top: 40px;
     }
 
-    .columna2Nosotros h2{
+    .columna2Nosotros h2 {
         margin-bottom: 10px;
         margin-top: 40px;
         margin-right: 20px;
     }
 
-    #nosotros{
+    #nosotros {
         height: 540px;
         background-position: cover;
         background-size: 250px;
     }
 
-    .columna2Nosotros img{
+    .columna2Nosotros img {
         height: 200px;
         margin-bottom: 40px;
         margin-right: 20px;
     }
 
 
-    .Autos img{
-        height:62px;
+    .Autos img {
+        height: 62px;
     }
 
-    
-.lista{
-    font-weight: 500;
-    font-size: 11px;
-    letter-spacing: 0.06em;
-    color: #002B49;
-    margin-top: 25px;
-    width: 190px;
-    margin-left: -5px;
-}
 
-.imgLista{
-    height: 140px;
-}
+    .lista {
+        font-weight: 500;
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        color: #002B49;
+        margin-top: 25px;
+        width: 190px;
+        margin-left: -5px;
+    }
 
-.seccionColumna2Cotizacion h2{
-    font-size:25px
-}
+    .imgLista {
+        height: 140px;
+    }
 
-.camiones{
-    height: 160px;
-}
+    .seccionColumna2Cotizacion h2 {
+        font-size: 25px
+    }
 
-.iconoCotizacion{
-    height: 30px;
-}
+    .camiones {
+        height: 160px;
+    }
 
-.precioCalGar{
-    height: 40px;
-}
+    .iconoCotizacion {
+        height: 30px;
+    }
 
-#cotizacion p{
-    font-size: 12px;
-}
+    .precioCalGar {
+        height: 40px;
+    }
 
-#cotizacion h3{
-    font-size: 17px;
-}
+    #cotizacion p {
+        font-size: 12px;
+    }
 
+    #cotizacion h3 {
+        font-size: 17px;
+    }
+
+    .mapa {
+        width: 200px;
+    }
+
+    #dondeEstamos p {
+        font-size: 12px
+    }
 
 }
 
@@ -470,19 +528,22 @@ h2 {
         height: 725px;
     }
 
-    .filaNosotros{
+    .filaNosotros {
         display: flex;
         flex-direction: column;
     }
 
-    .carruselAutos{
+    .carruselAutos {
         display: none;
     }
 
-    .barraNav{
+    .barraNav {
         padding-right: 20px;
     }
 
+    .filaContacto h5 {
+        font-size: 18px;
+    }
 
 }
 
@@ -510,20 +571,20 @@ h2 {
         height: 735px;
     }
 
-    .columna1Nosotros{
+    .columna1Nosotros {
         background: rgba(11, 42, 74, 0.25);
-        height:220px;
+        height: 220px;
         background-size: 130px;
         background-image: url("../img/vectorDecoracion.png");
         background-repeat: no-repeat;
-    }   
+    }
 
-    .listaMotoresQueTrabajamos p{
+    .listaMotoresQueTrabajamos p {
         font-size: 20px;
         line-height: 17px;
     }
 
-    .columna1Nosotros h2{
+    .columna1Nosotros h2 {
         margin-top: 20px;
     }
 
@@ -537,7 +598,7 @@ h2 {
         margin-bottom: 0px;
     }
 
-    .columna2Nosotros h2{
+    .columna2Nosotros h2 {
         align-self: start;
         font-size: 21px;
         text-align: left;
@@ -547,79 +608,98 @@ h2 {
         margin: 60px 0px 20px 22px
     }
 
-    .columna2Nosotros p{
+    .columna2Nosotros p {
         font-size: 20px;
         margin: 0px 0px 19px 0px
     }
 
-    .columna2Nosotros img{
+    .columna2Nosotros img {
         margin: 0px 0px 0px 0px;
-    height: 220px;
+        height: 220px;
     }
 
-    #nosotros{
+    #nosotros {
         height: 600px;
         background-image: none;
     }
 
-    #servicios h2{
+    #servicios h2 {
         padding-top: 0px;
         margin-top: 50px;
         margin-bottom: 20px;
     }
 
-    .imgLista{
+    .imgLista {
         height: 120px
     }
-    
-    nav a{
+
+    nav a {
         font-size: 12.5px;
     }
 
-    .lista{
+    .lista {
         font-size: 9px;
         margin-left: -19px;
         width: 150px;
     }
 
 
-    .Columna2Cotizacion{
+    .Columna2Cotizacion {
         margin-top: 0px;
     }
 
-    .seccionColumna1Cotizacion p{
+    .seccionColumna1Cotizacion p {
         text-align: center;
     }
 
-    #cotizacion{
+    #cotizacion {
         text-align: center;
     }
 
-    .seccionColumna1Cotizacion{
-    
+    .seccionColumna1Cotizacion {
         margin-top: 55px;
-        
     }
 
 
-    .filaCotizacion{
+    .filaCotizacion {
         margin-bottom: 40px;
     }
 
-    #cotizacion h2{
+    #cotizacion h2 {
         margin-bottom: 25px;
     }
 
-    .seccionColumna2Cotizacion h2{
+    .seccionColumna2Cotizacion h2 {
         font-size: 20px;
         margin-top: -5px;
         line-height: 30px;
-
     }
 
-    
-    .seccionColumna2Cotizacion h3{
-  
+    .horariosAtencionMaxRes {
+        display: block;
+    }
+
+    .horariosAtencionLowRes {
+        display: none;
+    }
+
+    .filaContacto {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .filaContacto img {
+        margin-bottom: 20px;
+    }
+
+    .mapa {
+        width: 300px;
+    }
+
+    #dondeEstamos h2{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 22px;
     }
 
 }
