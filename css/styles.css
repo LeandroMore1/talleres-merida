@@ -343,7 +343,7 @@ h5 {
 @media screen and (max-width: 990px) {
 
 
-    .filaContacto h5{
+    .filaContacto h5 {
         font-size: 15px;
     }
 
@@ -555,6 +555,11 @@ h5 {
 
 @media screen and (max-width: 575px) {
 
+
+    #cotizacion {
+        background-position: center;
+    }
+
     .carruselMarcas img {
         height: 15px;
     }
@@ -700,10 +705,15 @@ h5 {
         width: 300px;
     }
 
-    #dondeEstamos h2{
+    #dondeEstamos h2 {
         text-align: center;
         margin-left: 0px;
         font-size: 22px;
+    }
+
+    [data-aos] {
+        visibility: hidden;
+        animation: none;
     }
 
 }
