@@ -114,11 +114,15 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
+
+
 
 
 .logo {
     height: 360px;
+
 }
 
 #nosotros {
