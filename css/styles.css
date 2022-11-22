@@ -15,7 +15,6 @@ body p {
 
 header {
     background-image: url("../img/FONDOPRINCIPAL.png");
-    height: 762px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -40,6 +39,14 @@ a.nav-link:hover {
 
 nav {
     padding-top: 60px;
+}
+
+.whatsapp{
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .textoHeader {
@@ -387,10 +394,10 @@ h5 {
         padding-top: 40px;
     }
 
-    header {
+    /* header {
 
         height: 535px;
-    }
+    } */
 
     .columna2Nosotros p {
         font-size: 15px;
@@ -528,9 +535,9 @@ h5 {
         width: 350px;
     }
 
-    header {
+    /* header {
         height: 725px;
-    }
+    } */
 
     .filaNosotros {
         display: flex;
@@ -576,9 +583,9 @@ h5 {
 
     }
 
-    header {
+    /* header {
         height: 735px;
-    }
+    } */
 
     .columna1Nosotros {
         background: rgba(11, 42, 74, 0.25);
@@ -714,6 +721,10 @@ h5 {
     [data-aos] {
         visibility: hidden;
         animation: none;
+    }
+
+    .whatsapp{
+        height: 40px;
     }
 
 }
