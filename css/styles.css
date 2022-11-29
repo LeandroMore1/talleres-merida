@@ -41,7 +41,7 @@ nav {
     padding-top: 60px;
 }
 
-.whatsapp{
+.whatsapp {
     position: fixed;
     left: 5px;
     bottom: 5px;
@@ -124,7 +124,9 @@ h1 {
 
 }
 
-
+#dondeEstamos a {
+    text-decoration: none;
+}
 
 
 .logo {
@@ -133,7 +135,6 @@ h1 {
 }
 
 #nosotros {
-    height: 740px;
     background-image: url("../img/vectorDecoracion.png");
     background-repeat: no-repeat;
     background-size: 371px;
@@ -344,6 +345,10 @@ h5 {
     display: none;
 }
 
+
+
+
+
 /*SECTION - MEDIA QUERIE 990 */
 
 
@@ -424,7 +429,7 @@ h5 {
     }
 
     #nosotros {
-        height: 540px;
+        /* height: 540px; */
         background-position: cover;
         background-size: 250px;
     }
@@ -573,7 +578,6 @@ h5 {
 
     .carruselMarcas {
         height: 55px;
-
     }
 
 
@@ -635,7 +639,7 @@ h5 {
     }
 
     #nosotros {
-        height: 600px;
+        /* height: 600px; */
         background-image: none;
     }
 
@@ -723,7 +727,7 @@ h5 {
         animation: none;
     }
 
-    .whatsapp{
+    .whatsapp {
         height: 40px;
         margin-bottom: 20px;
     }
